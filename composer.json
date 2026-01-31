@@ -1,0 +1,24 @@
+{
+  "name": "planzgage/media-platform",
+  "description": "Reusable Laravel media platform with editorial workflow, streaming, and search",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.3",
+    "illuminate/support": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MediaPlatform\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MediaPlatform\\MediaPlatformServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

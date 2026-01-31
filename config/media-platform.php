@@ -8,7 +8,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'disk' => env('MEDIA_PLATFORM_DISK', 'public'),
+    'disk' => 'public',
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     */
 
     'search' => [
-        'driver' => env('MEDIA_PLATFORM_SEARCH_DRIVER', 'database'),
+        'driver' => 'database',
     ],
 
 ];
